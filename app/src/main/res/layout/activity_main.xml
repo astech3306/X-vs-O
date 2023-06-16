@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<GridLayout
+    android:id="@+id/GridLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:useDefaultMargins="true"
+    android:layout_centerInParent="true">
+
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn1"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn2"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn3"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn4"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn5"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn6"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn7"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn8"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:id="@+id/btn9"
+        android:backgroundTint="#DACECE"
+        android:onClick="onclick"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+</GridLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/x_turn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/GridLayout"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#DACECE"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:onClick="reset"/>
+
+</RelativeLayout>

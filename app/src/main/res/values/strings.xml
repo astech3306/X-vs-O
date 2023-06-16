@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">X vs O</string>
+    <string name="x_turn">Place X</string>
+    <string name="o_turn">Place O</string>
+    <string name="winStatus">Winner is: </string>
+    <string name="draw">Match has Drawn</string>
+    <string name="reset">New Game</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+</resources>
