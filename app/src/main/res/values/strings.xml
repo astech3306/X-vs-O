@@ -5,6 +5,5 @@
     <string name="winStatus">Winner is: </string>
     <string name="draw">Match has Drawn</string>
     <string name="reset">New Game</string>
-    <string name="title_activity_splash">SplashActivity</string>
-    <string name="dummy_button">Dummy Button</string>
+    <string name="welcomeText">Welcome to X vs O Game</string>
 </resources>
